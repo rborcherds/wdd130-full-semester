@@ -1,0 +1,50 @@
+body {
+    background-color: #fca6c9;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10em 0;
+}
+
+img {
+    width: 50%;
+}
+h1, h2 {
+    color: #fff;
+}
+
+h1:hover {
+    color: #000;
+}
+ h2 {
+    max-width: 50%;
+    margin: auto;
+ }
+
+p {
+    color: #fff;
+}
+
+.byline {
+    font-weight: 700;
+}
+
+ol {
+    color: #000;
+    text-align: left; 
+    font-weight: 700;
+}
+
+.authorTitle {
+    margin: 4em auto;
+    width: 80%;
+    font-size: .75em;
+}
+.author {
+    color:#000;
+    margin: 0;
+    padding: 0;
+}

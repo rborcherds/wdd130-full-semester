@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto+Slab&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.content {
+    max-width: 480px;
+    margin: 20px auto;
+}
+
+main {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: -5px 0 0 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.time {
+    justify-self: center;
+    font-size: 12px;
+    margin: 50px 0 0 0;
+}
+
+h1 {
+    justify-self: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.p-text {
+    margin: 20px 50px;
+    color: #6e6e6e;
+}
+
+footer {
+    background-color: #405c89;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 0 0 25px 25px;
+    font-family: 'Libre Bodoni', serif;
+
+}
+
+.footer-text {
+    text-align: center;
+    align-self: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.footer-numbers {
+    font-size: 25px;
+}
+
+.line-right {
+    border-right: 2px solid #cecece;
+}

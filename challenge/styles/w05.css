@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 3em 0;
+    margin: 0 auto;
+    max-width: 910px;
+}
+
+body>img {
+    width: 100%;
+    margin: 0;
+}
+
+.images {
+    display: inline-block;
+    background-color: #737373;
+    padding: 0;
+    margin: -5px 0 0 0;
+}
+
+.images img {
+
+    border-radius: 50%;
+    border: 10px solid #434343;
+    margin: 50px;
+    width: 200px;
+
+}
